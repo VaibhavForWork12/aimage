@@ -18,7 +18,7 @@ export interface IImage extends Document {
     updatedAt?: Date; // Optional since it has a default value
   }
   
-  export default IImage;
+ 
 
 const ImageSchema = new Schema({
     title: { type:String, reqrired: true },
