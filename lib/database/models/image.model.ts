@@ -9,6 +9,7 @@ export interface IImage extends Document {
     height?: number;
     config?: object; 
     aspectRatio?: string;
+    transformationUrl?:string;
     color?: string;
     prompt?: string;
     author: { _id: string;
